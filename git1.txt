@@ -1,0 +1,46 @@
+
+
+git init:                    Initializes a new Git repository.
+git add .:                   Stages all changes for a commit.
+git commit -m "message":     Creates a new commit with a message.
+git branch -M main:          Renames the current branch to "main".
+git remote add origin <URL>: Adds a remote repository.
+git push -u origin main:     Pushes the current branch to the remote
+
+
+git add "new file name"
+git commit -m main
+git push -u origin main
+
+
+git branch <new_branch_name>: Creates a new branch based on the current HEAD.
+git checkout -b <new_branch_name>: Creates a new branch and switches to it at the same time.
+
+
+
+
+1)get into the folder directory
+2)then type "git init" by typing this---> creates a new Git repository
+3) git add . ---->it Adds all tracked files (existing files in the Git repository) in the current directory and its subdirectories to the staging area. The staging area is a temporary holding area for changes you want to include in your next commit.
+
+
+
+4)git commit -m "first commit"---->Creates a new commit (snapshot) of the changes currently staged in the staging area. The -m flag specifies a commit message describing the changes. This "first commit" message is a good example of a clear and concise message.
+
+5)git branch -M main----->Renames the current branch (likely named "master" by default) to "main". This is a common practice as many projects are migrating from "master" to "main" as the default branch name.
+
+6)git remote add origin htAdds a remote repository named "origin" that points to the specified URL (likely a GitHub repository in this case). This establishes a connection between your local Git repository and the remote one.tps://github.com/whosine/git_commands.git------->
+
+
+
+
+
+
+git init -->
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/whosine/git_commands.git
+git push -u origin main--->Pushes the current branch to the remote
+
+.
